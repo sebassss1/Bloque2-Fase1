@@ -1,0 +1,20 @@
+#Comando usado para crear la OU de los equipos
+
+samba-tool ou create 'OU=ClientsComputers,DC=edu-gva,DC=es' --description='Departamento de computers'
+#Comandos usados para crear los equipos dentro de la OU
+
+samba-tool computer create W10IM-01 --computerou='OU=ClientsComputers' --description='Computer dep Direccion' --username=Bmonchob
+samba-tool computer create W10IM-2 --computerou='OU=ClientsComputers' --description='Computer dep Direccion' --username=Mjuanm
+samba-tool computer create W10IM-3 --computerou='OU=ClientsComputers' --description='Computer dep Secretaria' --username=Ichavesi
+samba-tool computer create W10IM-4 --computerou='OU=ClientsComputers' --description='Computer dep Secretaria' --username=Lalbal
+samba-tool computer create W10IM-5 --computerou='OU=ClientsComputers' --description='Computer dep Secretaria' --username=Jcarvalhoj
+samba-tool computer create UDIM-1 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Aalabaua
+samba-tool computer create UDIM-02 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Cgomisc
+samba-tool computer create UDIM-3 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Svalencias
+samba-tool computer create UDIM-4 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Pchavesp
+samba-tool computer create UDIM-5 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Palbap
+samba-tool computer create UDIM-6 --computerou='OU=ClientsComputers' --description='Computer dep CiclosFormativos' --username=Mcarvalhonm
+samba-tool computer create UDIM-7 --computerou='OU=ClientsComputers' --description='Computer dep conserjeria' --username=Jcamposj
+samba-tool computer create UDIM-8 --computerou='OU=ClientsComputers' --description='Computer dep conserjeria' --username=Emonchoe
+samba-tool computer create UDIM-9 --computerou='OU=ClientsComputers' --description='Computer dep conserjeria' --username=Rchaver
+samba-tool computer create UDIM-10 --computerou='OU=ClientsComputers' --description='Computer dep conserjeria' --username=Jalba
