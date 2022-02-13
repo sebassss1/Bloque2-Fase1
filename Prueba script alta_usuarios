@@ -1,0 +1,34 @@
+#No me ha funcionado del todo, no entiendo porque, pero lo dejo por aquí...
+
+while IFS=, read -r fila1 fila2 fila3 fila4 fila5 fila6 fila7 fila8 fila9 fila10 fila11 fila12 fila13 fila14 fila15 fila16
+do
+    echo "I got:$fila1|$fila2"
+       
+   
+#prueba sebastian
+        GivenName=$fila1
+        Surname=$fila2
+        email=$fila3
+        account=$fila4
+        Dni=$fila5
+        Delegation=$fila6
+        Departament=$fila7
+        Computer=$fila8
+        Enabled=$fila9
+        Password=$fila10
+        TurnPassDays=$fila11
+        Change=$fila12
+        Shell=$fila13
+        OU=$fila14
+        group=$fila15
+	homeDirectory=$fila16
+
+        echo -n "Añadiendo usuario $GivenName..."
+        #Añade el usuario en la UO correspondiente
+	samba-tool user create $account abc123 logiPassword7 --must-change-at-next-login --userou='ou=$fila14' --home-directory=$fila16 --given-name="$GivenName" --surname="$surname" --mail=$email --login-shell=/bin/bash
+        
+        #Hacer miembro del grupo correspondiente al usuario
+        samba-tool group addmembers $group $GivenName
+        echo "[Usuario $GivenName creado correctamente]"
+    
+done <  $1
