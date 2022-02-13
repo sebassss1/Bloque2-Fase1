@@ -1,0 +1,6 @@
+#Comandos que he usado para crear las OU
+
+samba-tool ou create 'OU=Direccion,DC=edu-gva,DC=es' --description='Departamento de Direccion'
+samba-tool ou create 'OU=CiclosFormativos,DC=edu-gva,DC=es' --description='Departamento de CiclosFormativos'
+samba-tool ou create 'OU=Secretaria,DC=edu-gva,DC=es' --description='Departamento de Secretaria'
+samba-tool ou create 'OU=Conserjeria,DC=edu-gva,DC=es' --description='Departamento de Conserjeria'
