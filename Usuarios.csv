@@ -1,0 +1,19 @@
+#Fichero csv para crear los usuarios con un script, pero al final no me salió. He intentado crer los usuarios con un script y una plantilla .csv, pero no lo he conseguido y he tenido que volver al estado anterir de la maquina
+porque ya no me funcionaba.
+
+GivenName,Surname,email,account,Dni,Delegation,Departament,Computer,Enabled,Password,TurnPassDays,Change,Shell,OU,group,homeDirectory
+BASILIO,MONCHO,BASILIO.MONCHO@iesmiralcamp.es,BMONCHOB,12345696-S,IESmiralcamp,Direccion,W10IM-1,S,12345696-S,30,S,/bin/bash,Direccion,GG-DepDireccion,/home/Basilo
+MIRIAM,JUAN,MIRIAM.JUAN@iesmiralcamp.es,MJUANM,12345697-T,IESmiralcamp,Direccion,W10IM-2,S,12345697-T,30,S,/bin/bash,Direccion,GG-DepDireccion,/home/Miriam
+IGNACIO,CHAVES,IGNACIO.CHAVES@iesmiralcamp.es,ICHAVESI,12345698-U,IESmiralcamp,Secretaria,W10IM-3,S,12345698-U,30,S,/bin/bash,Secretaria,GG-DepSecretaria,/home/Ignacio
+LAURA,ALBA,LAURA.ALBA@iesmiralcamp.es,LALBAL,12345699-V,IESmiralcamp,Secretaria,W10IM-4,S,12345699-V,30,S,/bin/bash,Secretaria,GG-DepSecretaria,/home/Laura
+JORGE,CARVALHO,JORGE.CARVALHO@iesmiralcamp.es,JCARVALHOJ,12345700-W,IESmiralcamp,Secretaria,W10IM-5,S,12345700-W,30,S,/bin/bash,Secretaria,GG-DepSecretaria,/home/Jorge
+ANTONIO,ALABAU,ANTONIO.ALABAU@iesmiralcamp.es,AALABAUA,12345701-X,IESmiralcamp,CiclosFormativos,UDIM-1,S,12345701-X,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,home/Antonio
+CLAUDIO,GOMIS,CLAUDIO.GOMIS@iesmiralcamp.es,CGOMISC,12345702-Y,IESmiralcamp,CiclosFormativos,UDIM-2,S,12345702-Y,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,home/Claudio
+SUSANA,VALENCIA,SUSANA.VALENCIA@iesmiralcamp.es,SVALENCIAS,12345703-Z,IESmiralcamp,CiclosFormativos,UDIM-3,S,12345703-Z,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,/home/Susana
+PEDRO,CHAVES,PEDRO.CHAVES@iesmiralcamp.es,PCHAVESP,12345704-A,IESmiralcamp,CiclosFormativos,UDIM-4,S,12345704-A,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,/home/Pedro
+PIEDAD,ALBA,PIEDAD.ALBA@iesmiralcamp.es,PALBAP,12345705-B,IESmiralcamp,CiclosFormativos,UDIM-5,S,12345705-B,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,/home/Piedad
+MANUEL,CARVALHO,MANUEL.CARVALHO@iesmiralcamp.es,MCARVALHOM,12345706-C,IESmiralcamp,CiclosFormativos,UDIM-6,S,12345706-C,15,S,/bin/bash,Ciclos_formativos,GG-DepCiclos_formativos,/home/Manuel
+JAVIER,CAMPOS,JAVIER.CAMPOS@iesmiralcamp.es,JCAMPOSJ,12345707-D,IESmiralcamp,Conserjeria,UDIM-7,S,12345707-D,30,S,/bin/bash,Conserjeria,GG-DepConserjeria,/home/Javier
+EVA,MONCHO,EVA.MONCHO@iesmiralcamp.es,EMONCHOE,12345708-E,IESmiralcamp,Conserjeria,UDIM-8,S,12345708-E,30,S,/bin/bash,Conserjeria,GG-DepConserjeria,/home/Eva
+RODRIGO,CHAVES,RODRIGO.CHAVES@iesmiralcamp.es,RCHAVESR,12345709-F,IESmiralcamp,Conserjeria,UDIM-9,S,12345709-F,30,S,/bin/bash,Conserjeria,GG-DepConserjeria,/home/Rodrigo
+JOHANN,ALBA,JOHANN.ALBA@iesmiralcamp.es,JALBAJ,12345710-G,IESmiralcamp,Conserjeria,UDIM-10,S,12345710-G,30,S,/bin/bash,Conserjeria,GG-DepConserjeria,/home/Johan
