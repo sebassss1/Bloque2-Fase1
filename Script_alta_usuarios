@@ -1,0 +1,22 @@
+#Comandos usados para crear los usuarios
+
+samba-tool user create Jalbaj logiPassword7 --must-change-at-next-login --userou='ou=Conserjeria' --home-directory=/home/Johan --given-name="Johan" --surname="Alba" --mail=JOHAN.ALBA@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Rchavesr logiPassword7 --must-change-at-next-login --userou='ou=Conserjeria' --home-directory=/home/Rodrigo --given-name="Rodrigo" --surname="Chaves" --mail=RODRIGO.CHAVES@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Emonchoe logiPassword7 --must-change-at-next-login --userou='ou=Conserjeria' --home-directory=/home/Eva --given-name="Eva" --surname="Moncho" --mail=EVA.MONCHO@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Jcamposj logiPassword7 --must-change-at-next-login --userou='ou=Conserjeria' --home-directory=/home/Javier --given-name="Javier" --surname="Campos" --mail=JAVIER.CAMPOS@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Mcarvalhon logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Manuel --given-name="Manuel" --surname="Carvalho" --mail=MANUEL.CARVALHO@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Palbap logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Piedad --given-name="Piedad" --surname="Alva" --mail=PIEDAD.ALBA@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Pchavesp logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Pedro --given-name="Pedro" --surname="Chaves" --mail=PEDRO.CHAVES@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Svalencias logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Susana --given-name="Susana" --surname="Valencia" --mail=SUSANA.VALENCIA@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Cgomisc logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Claudio --given-name="Claudio" --surname="Gomis" --mail=CLAUDIO.GOMIS@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Aalabaua logiPassword7 --must-change-at-next-login --userou='ou=CiclosFormativos' --home-directory=/home/Antonio --given-name="Antonio" --surname="Alabau" --mail=ANTONIO.ALABAU@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Jcarvalhoj logiPassword7 --must-change-at-next-login --userou='ou=Secretaria' --home-directory=/home/Jorge --given-name="Jorge" --surname="Carvalho" --mail=JORGE.CARVALHO@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Lalbal logiPassword7 --must-change-at-next-login --userou='ou=Secretaria' --home-directory=/home/Laura --given-name="Laura" --surname="Alba" --mail=LAURA.ALBA@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Ichavesi logiPassword7 --must-change-at-next-login --userou='ou=Secretaria' --home-directory=/home/Ignacio --given-name="Ignacio" --surname="Chaves" --mail=IGNACIO.CHAVES@iesmiralcamp.es --login-shell=/bin/bash
+samba-tool user create Mjuanm logiPassword7 --must-change-at-next-login --userou='ou=Direccion' --home-directory=/home/Miriam --given-name="Miriam" --surname="Juan" --mail=MIRIAM.JUAN@iesmiralcamp.es --login-shell=/bin/bash
+
+
+
+
+
+
