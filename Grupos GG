@@ -1,0 +1,6 @@
+#Comando que he usado para crear los grupos globales dentro de las OU
+
+samba-tool group add GG-DepDireccion --groupou='ou=Direccion' --group-type=Security --group-scope=Global
+samba-tool group add GG-CiclosFormativos --groupou='ou=CiclosFormativos' --group-type=Security --group-scope=Global
+samba-tool group add GG-DepSecretaria --groupou='ou=Secretaria' --group-type=Security --group-scope=Global
+samba-tool group add GG-DepConserjeria --groupou='ou=Conserjeria' --group-type=Security --group-scope=Global
